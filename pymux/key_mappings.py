@@ -74,6 +74,7 @@ def prompt_toolkit_key_to_vt100_key(key, application_mode=False):
 PYMUX_TO_PROMPT_TOOLKIT_KEYS = {
     'Space': (' '),
 
+    'C-Space': (Keys.ControlSpace, ),    
     'C-a': (Keys.ControlA, ),
     'C-b': (Keys.ControlB, ),
     'C-c': (Keys.ControlC, ),
